@@ -1,165 +1,190 @@
 body {
-  background-color: #EDEFEE;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Nunito Sans', sans-serif;
-  margin-top: 3rem ;
-  margin-bottom: 3rem ;
-  margin-left:5% ;
-  margin-right:5% ;
+  background-color: #edefee;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-h1{
-    font-size: 3rem;
+h1 {
+  font-size: 3rem;
 }
 
-h4{
-    font-size: 1.25rem;
+h4 {
+  font-size: 1.25rem;
 }
 
- .logo{
-    border: #333333 1px solid;
-    padding: 0.5rem;
-    border-radius: 10px;
+.logo {
+  border: #333333 1px solid;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 header > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4rem;
-    width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  width: auto;
 }
 
 section header {
-    background-image: url("../images/meals.jpeg");
-    /* z-index: -1; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff200;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-   
-    border-radius: 10px;
-    }
+  background-image: url("../images/meals.jpeg");
+  /* z-index: -1; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff200;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 
-section header .backdrop{
-    background-color: rgba(40, 34, 34, 0.3);
-    width: auto;
-    padding: 0.5rem;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-nav{
-    background-color: #333333;
-    color: #ffff;
-    border-radius: 9999px;
-    padding: 1px 0px;
-    margin-top: 1rem;
+section header .backdrop {
+  background-color: rgba(40, 34, 34, 0.3);
+  width: auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #333333;
+  color: #ffff;
+  border-radius: 9999px;
+  padding: 1px 0px;
+  margin-top: 1rem;
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav li a {
-    color: #ffff;
-    text-decoration: none;
-    margin: 0rem 0.5rem;
+  color: #ffff;
+  text-decoration: none;
+  margin: 0rem 0.5rem;
 }
 
-nav li a:hover{
+nav li a:hover {
   color: #fff200;
 }
 
 aside {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows:minmax(300px, auto);
-    margin: auto;
-    margin-bottom: 1rem;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(300px, auto);
+  margin: auto;
+  margin-bottom: 1rem;
+  gap: 40px;
 }
 
 aside > div {
-    background-color: #495E57;
-    color:  #fff;
-    padding: 1rem;
-    border: #333333 1px solid;
-    border-radius: 10px;
-    box-shadow:5px 10px #fff200;
+  background-color: #495e57;
+  color: #fff;
+  padding: 1rem;
+  border: #333333 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 10px #fff200;
 }
 
-aside > div:hover{
-    box-shadow:5px 10px #fff;
+aside > div:hover {
+  box-shadow: 5px 10px #fff;
 }
 
 aside div > img {
-    width: 360px;
-    display: block;
-    margin: auto;
+  width: 360px;
+  display: block;
+  margin: auto;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: auto;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+  gap: 30px;
 }
 
 aside div a {
-    text-decoration: none;
-    padding: 0.25rem;
-    background-color: #EDEFEE;
-    color: #333333;
-    border-radius: 5px;
-    transition: ease-out 0.3s;
-    outline: none;
-    box-shadow: inset 0 0 0 0 #fff200;
+  text-decoration: none;
+  padding: 0.25rem;
+  background-color: #edefee;
+  color: #333333;
+  border-radius: 5px;
+  transition: ease-out 0.3s;
+  outline: none;
+  box-shadow: inset 0 0 0 0 #fff200;
 }
 
-aside div a:hover{
-    box-shadow: inset 165px 0 0 0 #fff200;
-    color: #333333;
+aside div a:hover {
+  box-shadow: inset 165px 0 0 0 #fff200;
+  color: #333333;
 }
 
 footer > img {
-    margin: 1rem;
-    display: inline-block;
-    height: 5rem;
+  margin: 1rem;
+  display: inline-block;
+  height: 5rem;
 }
 
-footer p{
-    justify-self: end;
-    padding: 1px;
-    border-top:#333333 2px solid;
+footer p {
+  justify-self: end;
+  padding: 1px;
+  border-top: #333333 2px solid;
+}
+
+@media only screen and (max-width: 900px) {
+  aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+  }
+
+  aside div > img {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  aside div a:hover {
+    box-shadow: inset 0 0 0 0 #fff200;
+    color: #333333;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    aside {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    footer {
-        display: grid;
-        grid-template-columns:1fr;
-        margin: auto;
-        gap: 30px;
-    }
-
-    aside div > img {
-        width: 300px;
-        display: block;
-        margin: auto;
-    }
-
-    aside div a:hover{
-        box-shadow: inset 0 0 0 0 #fff200;
-        color: #333333;
-    }
+  aside {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 30px;
+  }
+
+  aside div > img {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  aside div a:hover {
+    box-shadow: inset 0 0 0 0 #fff200;
+    color: #333333;
+  }
+}
